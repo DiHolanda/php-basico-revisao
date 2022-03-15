@@ -6,5 +6,7 @@ echo "\n";
 echo 6 * 6;
 echo "\n";
 echo 6 / 10;
+echo "\n";
+echo 6 * 6 / (6 - 6 + 1);
 
  ?>
