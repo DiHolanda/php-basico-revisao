@@ -8,5 +8,8 @@ echo "\n";
 echo 6 / 10;
 echo "\n";
 echo 6 * 6 / (6 - 6 + 1);
+echo "\n";
+// DivisionByZeroError: erro por inexistir divisão por zero
+// echo 100000 / 0;
 
  ?>
