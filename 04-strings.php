@@ -22,4 +22,9 @@
 	echo "\n";
 	echo $string1 . " " . $string2;
 
+	$frase = $string1 . " — " . $string2;
+
+	echo "\n";
+	echo $frase;
+
  ?>
