@@ -27,4 +27,9 @@
 	echo "\n";
 	echo $frase;
 
+	$mesmaFrase = "$string1 — o $string2";
+
+	echo "\n";
+	echo $mesmaFrase;
+
  ?>
