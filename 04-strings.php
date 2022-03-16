@@ -32,4 +32,9 @@
 	echo "\n";
 	echo $mesmaFrase;
 
+	$textoPuro = '$string1 — o $string2';
+
+	echo "\n";
+	echo $textoPuro;
+
  ?>
