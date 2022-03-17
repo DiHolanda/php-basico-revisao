@@ -14,4 +14,9 @@
 	// mas mesmo assim dá o alerta e exibe apenas que variável é do tipo array
 	echo $vetor;
 
+	echo  "\n";
+
+	// para exibir um valor dentro do array, precisa informar qual a posição do valor a ser mostrado
+	echo $vetor[0]; // lembrando que a posição começa a partir do zero
+
  ?>
