@@ -33,4 +33,12 @@
 	// atribui valores num array e exibe um valor na mesma linha de comando
 	echo $vetorInvocado = array(false, false, true)[2];
 
+	// atribuição limpa em array
+	// em vez de declarar a função array para então inserir os valores
+	// já os insere diretamente entre colchetes
+	$vetorLimpo = [1, 2, 3, 5];
+
+	echo "\n";
+	echo $vetorLimpo[3];
+
  ?>
