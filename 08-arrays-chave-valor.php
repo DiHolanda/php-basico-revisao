@@ -12,4 +12,14 @@
 	);
 
 	echo $arraysChavesPadrao[1];
+
+	// exemplo de chaves personalizadas
+	$arraysChavesPersonalizadas = array(
+		1 => 417,
+		"nome" => "Di Holanda",
+		"homem?" => true
+	);
+
+	echo "\n";
+	echo $arraysChavesPersonalizadas["homem?"];
  ?>
