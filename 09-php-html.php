@@ -1,3 +1,8 @@
+<?php 
+	// definição de variáveis
+	$nome = "Di Holanda";
+ ?>
+
 <html lang="pt_BR">
 <head>
 	<meta charset="UTF-8">
@@ -6,7 +11,10 @@
 </head>
 <body>
 	<?php 
+		//exibição de valores em página
 		echo 1 + 1;
+		echo "\n";
+		echo $nome;
 	 ?>
 </body>
 </html>
