@@ -22,4 +22,17 @@
 
 	echo "\n";
 	echo $arraysChavesPersonalizadas["homem?"];
+
+	// misto de chaves personalizadas e automáticas
+	$arrayChavesMisturadas = array(
+		"mulher?" => false,
+		"Di Holanda",
+		12 => 28,
+		1993
+	); // no valor "Di Holanda", a chave será 0, mas no valor 1993, a chave será 13, número seguinte ao 12, que é a chave anterior
+
+	echo "\n";
+
+	// var_dump destrincha a composição da variável passada
+	echo var_dump($arrayChavesMisturadas);
  ?>

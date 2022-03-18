@@ -6,7 +6,20 @@
 </head>
 <body>
 	
-	<h1> Di Holanda </h1>
+	<h1> Site do Di Holanda </h1>
+
+    <!-- action indica a url de onde os valores do formulário serão processados -->
+    <!-- e method define como a outra página PHP pegará os valores -->
+	<form action="http://localhost:8000/10-recebe-info.php" method="get">
+		<label for="nome"> Nome: </label>
+		<input type="text" name="nome" id="nome">
+
+		<label for="sobrenome"> Sobrenome:  </label>
+		<input type="text" name="sobrenome" id="sobrenome">
+
+		<button type="submit"> Enviar </button>
+
+	</form>
 
 </body>
 </html>
