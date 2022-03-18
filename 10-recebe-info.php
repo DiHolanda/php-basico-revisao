@@ -6,6 +6,14 @@
  ?>
 
  <h1> <?php 
- 			echo $_GET["nome"] . " " .
- 			$_GET["sobrenome"];
+ 			if($_GET != null){
+ 				echo $_GET["nome"] . " " .
+ 				$_GET["sobrenome"];
+ 			}
+ 			else
+ 			{
+ 				
+ 				echo $_POST["nome"] . " " .
+ 				$_POST["sobrenome"];
+ 			}
  		 ?> </h1>
