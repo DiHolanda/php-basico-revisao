@@ -1,6 +1,7 @@
 <?php 
 	// definição de variáveis
 	$nome = "Di Holanda";
+	$html = "<h1> PHP Básico </h1>"
  ?>
 
 <html lang="pt_BR">
@@ -15,6 +16,7 @@
 		echo 1 + 1;
 		echo "\n";
 		echo $nome;
+		echo $html;
 	 ?>
 </body>
 </html>
