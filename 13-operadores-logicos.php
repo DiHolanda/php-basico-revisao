@@ -18,7 +18,7 @@
 	$frequenciaMinima = 75;
 
 	$mediaAluno = 3;
-	$frequenciaAluno = 50;
+	$frequenciaAluno = 70;
 
 	if($mediaAluno >= $mediaMinima && 
 		$frequenciaAluno >= $frequenciaMinima) {
@@ -27,5 +27,17 @@
 	else {
 		echo "Aluno reprovado";
 	}
+
+	echo "\n";
+
+	// agora avaliando um aluno da escola estadual de SP...
+	if($mediaAluno >= $mediaMinima ||
+		$frequenciaAluno >= $frequenciaMinima) {
+		echo "Aluno aprovado em escola pública do estado de SP";
+	}
+	else {
+		echo "Aluno reprovado, mesmo na escola pública do estado de SP";
+	}
+
 
  ?>
