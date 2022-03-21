@@ -21,4 +21,13 @@
 		
 		echo $a . " é igual a " . $b;
 	}
+
+	echo "\n";
+
+	if($a > $b){
+		echo $a . " é maior que " . $b;
+	}
+	else {
+		echo $a . " não é maior que " . $b;
+	}
  ?>
