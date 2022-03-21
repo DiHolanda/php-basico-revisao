@@ -10,6 +10,21 @@
 	$reprovadoPorFaltas = $frequenciaAluno < $frequenciaMinima ?
 			true : false;
 
-	echo var_dump($reprovadoPorFaltas);
+	if(!$reprovadoPorFaltas) {
+
+		if($mediaAluno < $mediaRecuperacao) {
+			echo "Aluno reprovado";
+		}
+		else if($mediaAluno < $mediaMinima) {
+			echo "Aluno em recuperação";
+		}
+		else {
+			echo "Aluno aprovado";
+		}
+
+	}
+	else {
+		echo "Aluno reprovado";
+	}
 
  ?>
