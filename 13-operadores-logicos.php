@@ -40,4 +40,16 @@
 	}
 
 
+	echo "\n";
+
+	// exemplo com operador !
+	$chovendo = true;
+
+	if(!$chovendo){
+		echo "Vou fazer exercícios chatos em casa ¬¬";
+	}
+	else {
+		echo "Vou caminhar no parque :D";
+	}
+
  ?>
