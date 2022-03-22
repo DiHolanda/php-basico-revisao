@@ -3,11 +3,11 @@
 	$i = 0;
 
 	// exibe apenas números pares
-	do {
+	while ($i < 10) {
 
 		$i++;
 
-		if ($i % 2 == 0) {
+		if ($i % 2 != 0) {
 		
 			//echo $i . "<br>";
 			continue;
@@ -16,6 +16,6 @@
 
 		echo $i . "<br>";
 
-	}while($i < 10);
+	}
 
  ?>
