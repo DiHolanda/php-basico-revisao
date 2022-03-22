@@ -24,6 +24,7 @@
 
 	echo "\n";
 
+	// compara se um valor é maior que outro
 	if($a > $b){
 		echo $a . " é maior que " . $b;
 	}
