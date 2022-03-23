@@ -21,12 +21,12 @@
 			
 			<legend> Área de Interesse </legend>
 
-			<input type="checkbox" name="interesse"> Informática <br>
-			<input type="checkbox" name="interesse"> Xadrez <br>
-			<input type="checkbox" name="interesse"> Literatura <br>
-			<input type="checkbox" name="interesse"> Games <br>
-			<input type="checkbox" name="interesse"> Ciência <br>
-			<input type="checkbox" name="interesse"> Estudo <br>
+			<input type="checkbox" name="interesse" value="Informática"> Informática <br>
+			<input type="checkbox" name="interesse" value="Xadrez"> Xadrez <br>
+			<input type="checkbox" name="interesse" value="Literatura"> Literatura <br>
+			<input type="checkbox" name="interesse" value="Games"> Games <br>
+			<input type="checkbox" name="interesse" value="Ciência"> Ciência <br>
+			<input type="checkbox" name="interesse" value="Estudo"> Estudo <br>
 			
 		</fieldset>
 
@@ -52,8 +52,8 @@
 			
 			<legend> Redirecionar para: </legend>
 
-			<input type="radio" name="redirecionar"> Home <br>
-			<input type="radio" name="redirecionar"> Contato <br>
+			<input type="radio" name="redirecionar" value="home"> Home <br>
+			<input type="radio" name="redirecionar" value="contato"> Contato <br>
 
 		</fieldset>
 
