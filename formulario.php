@@ -21,12 +21,12 @@
 			
 			<legend> Área de Interesse </legend>
 
-			<input type="checkbox" name="interesse" value="Informática"> Informática <br>
-			<input type="checkbox" name="interesse" value="Xadrez"> Xadrez <br>
-			<input type="checkbox" name="interesse" value="Literatura"> Literatura <br>
-			<input type="checkbox" name="interesse" value="Games"> Games <br>
-			<input type="checkbox" name="interesse" value="Ciência"> Ciência <br>
-			<input type="checkbox" name="interesse" value="Estudo"> Estudo <br>
+			<input type="checkbox" name="interesse[]" value="Informática"> Informática <br>
+			<input type="checkbox" name="interesse[]" value="Xadrez"> Xadrez <br>
+			<input type="checkbox" name="interesse[]" value="Literatura"> Literatura <br>
+			<input type="checkbox" name="interesse[]" value="Games"> Games <br>
+			<input type="checkbox" name="interesse[]" value="Ciência"> Ciência <br>
+			<input type="checkbox" name="interesse[]" value="Estudo"> Estudo <br>
 			
 		</fieldset>
 
