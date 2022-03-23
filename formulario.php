@@ -9,7 +9,7 @@
 
 	<hr>
 
-	<form action="" method="post">
+	<form action="20-recebe-post.php" method="post">
 		
 		<label for="nome"> Nome: </label> <br>
 		<input type="text" name="nome"> <br><br>
