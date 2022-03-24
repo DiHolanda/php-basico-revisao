@@ -1,9 +1,9 @@
 <?php 
 
-	function soma($a, $b){
+	function soma($a = 3, $b = 3){
 		return $a + $b;
 	}
 
-	echo soma(3, 3);
+	echo soma();
 
  ?>
