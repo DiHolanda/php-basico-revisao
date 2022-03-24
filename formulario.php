@@ -5,11 +5,11 @@
 	<title>Formulário</title>
 </head>
 <body>
-	<h1> Formulário com PHP </h1>
+	<h1> Formulário com PHP e Validação</h1>
 
 	<hr>
 
-	<form action="20-recebe-post.php" method="post">
+	<form action="23-valida-form.php" method="post">
 		
 		<label for="nome"> Nome: </label> <br>
 		<input type="text" name="nome"> <br><br>
