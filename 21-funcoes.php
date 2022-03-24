@@ -1,9 +1,9 @@
 <?php 
 
-	function escreverNoBN() {
-		echo "Black Note: escreva o nome da pessoa que vai morrer";
+	function escreverNoBN($nome, $causa) {
+		echo "Black Note: $nome morrerá por $causa";
 	}
 
-	escreverNoBN();
+	escreverNoBN("Hideyoshi Toyotomi", "causas naturais");
 
  ?>
